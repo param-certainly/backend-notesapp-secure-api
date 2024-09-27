@@ -30,21 +30,21 @@ Usage
 
 #Remove Notes: Use the remove method to delete notes. Successful removal is logged.
 
-Serialization and Deserialization
+^Serialization and Deserialization
 ---------------------------------
 
-^Dump: Use the dump method to serialize the note data and generate a checksum.
+#Dump: Use the dump method to serialize the note data and generate a checksum.
 
-^Load: Initialize a new PrivNotes instance with the serialized data and checksum to load the notes.
+#Load: Initialize a new PrivNotes instance with the serialized data and checksum to load the notes.
 
-Security Considerations
+^Security Considerations
 -----------------------
 
-^Password Security: The system relies on a secure password for key derivation. Use strong, unique passwords.
+#Password Security: The system relies on a secure password for key derivation. Use strong, unique passwords.
 
-^Data Integrity: The system verifies data integrity upon decryption. Any integrity failures will raise exceptions.
+#Data Integrity: The system verifies data integrity upon decryption. Any integrity failures will raise exceptions.
 
-Example Usage
+^Example Usage
 -------------
 
 python
